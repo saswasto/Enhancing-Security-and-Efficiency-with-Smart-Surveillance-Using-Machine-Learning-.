@@ -1,5 +1,5 @@
-                                                                              Enhancing Security and Efficiency with Smart Surveillance Using Machine Learning
-                                                                            -------------------------------------------------------------------------------------
+ Enhancing Security and Efficiency with Smart Surveillance Using Machine Learning
+ -------------------------------------------------------------------------------------
                                                                              Department of Computer Science and Engineering, Narula Institute of Technology,
                                                                              81, Nilgunj Road, Agarpara, Kolkata - 700109, West Bengal
 

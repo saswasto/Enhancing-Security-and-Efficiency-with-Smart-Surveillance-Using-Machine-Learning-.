@@ -1,11 +1,11 @@
  Enhancing Security and Efficiency with Smart Surveillance Using Machine Learning
  -------------------------------------------------------------------------------------
-                                                                             Department of Computer Science and Engineering, Narula Institute of Technology,
-                                                                             81, Nilgunj Road, Agarpara, Kolkata - 700109, West Bengal
+ Department of Computer Science and Engineering, Narula Institute of Technology,
+ 81, Nilgunj Road, Agarpara, Kolkata - 700109, West Bengal
 
-
-                                                                                                          Abstract
-													-------------  
+                 
+Abstract:
+--------  
 The proposed system offers an innovative solution to address crowd control, security, and worker tracking challenges using Artificial Intelligence and Machine Learning. Specifically designed to support the Indian Railways and relevant authorities, the system aims to enhance operational efficiency and security. Its core functionality focuses on advanced crowd management through ML algorithms, instantly alerting authorities when predefined thresholds are exceeded. The system also utilises AI to detect potentially violent actions and suspicious activities, providing real-time insights through a user-friendly dashboard for 24/7 monitoring. With versatility in resource allocation and scalability in densely populated areas, the system's cloud-based infrastructure ensures ease of integration, cost efficiency, and adaptability. However, success depends on high-quality video feeds, stable internet connectivity, user-friendliness, and seamless integration with existing CCTV systems. In conclusion, this AI and ML-based system offers a comprehensive, real-time solution for security enhancement and efficiency across public and private sectors.
 
                                                                                                        Introduction

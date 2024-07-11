@@ -44,12 +44,12 @@ Rail stations can significantly enhance security measures by deploying smart sur
 
 In essence, the amalgamation of machine learning technologies with surveillance cameras at rail stations marks a substantial leap forward in fortifying security measures while streamlining operations, ultimately ensuring a safer and more efficient travel experience for all commuters.
 
-                                                                                                                       Objective: 
-                                                                                                                     --------------
+Objective: 
+-----------
 After carefully going through numerous research papers and articles, we got an overview and a good idea about how to approach our problem statement. Weapon detection[1] Can help determine illegal items that may be involved in violence or crime. Using SSD or fast R-CNN [1] is a tradeoff between speed and accuracy which can be further improved by using models like YOLOv3 [5] which we will discuss later. The architecture[2] of a centralised crime management system Can be used for efficient crime management. While the paper[2] outlines the steps of processing CCTV information, a noticeable observation is the lack of explicit mention of the algorithms used. Opens venues for future exploration and discussion of all the algorithm choices in centralised crime management. The shift from storing a video to storing incident captions for real-time crime detection[3] highlights pragmatic approaches to overcoming challenges related to time and space. The use of encoder-decoder Architecture is a noticeable observation, showcasing a thoughtful adaptation of neural network models for processing and summarising the surveillance data. However, it may lack the ability to identify the actions of a human in a crowded environment more accurately which can be further improved by using posture detection techniques. The utilisation of machine learning algorithms for predicting crime patterns and identifying hotspots in a silty or state[4] reflects a proactive approach to crime prevention. The paper's exploration of various algorithms such as random forest and naive bayes introduces a cooperative perspective emphasising the importance of selecting an appropriate model for accurate predictions which can be used with the combination of captioning and capturing the motions of humans, further improving the efficiency of the system. 
 
-                                                                                                                 Detailed Methodology: 
-                                                                                                               --------------------------
+Detailed Methodology: 
+---------------------
 Our methodology for enhancing surveillance system in railway stations revolves around the integration of advanced machine learning algorithms, particularly focusing on posture tracking for human action detection and activity captioning. The aim is to address existing limitations and improve the precision and efficiency of surveillance systems in identifying potential threats and unusual activities. The overview of our methodology is explained in the flowchart below.
 
 AlphaPose is an advanced deep-learning algorithm used for estimating human poses from images or videos. It accurately identifies key points [9] in the human body and is capable of detecting multiple individuals [12] in a scene simultaneously. AlphaPose operates in real-time, making it suitable for applications like surveillance, action recognition, and sports analytics. Its open-source nature encourages community contributions and customization for specific needs, while its high accuracy and performance make it valuable across various industries.
@@ -64,8 +64,8 @@ As we know [5]YOLOv3 leverages the Convolutional Neural Networks (CNNs) as a fun
 
 In conclusion, the study emphasises the transformative potential of smart surveillance systems powered by machine learning algorithms in fortifying security measures and streamlining operations in transportation hubs and similar high-traffic environments. By providing real-time insights and proactive threat detection capabilities, these systems offer a robust solution to safeguarding public safety and ensuring smooth operational workflows.
           
-													  Database:
-	                                                                                                -------------
+Database:
+----------
 All the detection and identification systems need to use some face dataset for testing the functions. For identity verification and detection systems, large face datasets are gathered, emphasising the importance of extensive training datasets for accurate CNN [1] performance. Well-known datasets such as Object detection models, including YOLOv3 [5], are trained on datasets with annotated images of objects and movement patterns, ensuring diversity in scenarios.
 
 Posture tracking and human action detection, exemplified by AlphaPose, are trained on datasets capturing various human activities in rail stations. Integration involves establishing communication protocols between components, optimising the system for real-time processing, and implementing continuous learning mechanisms.
@@ -74,30 +74,29 @@ Testing and evaluation include benchmarking against predefined standards, scenar
 
 In essence, the database strategy ensures that the enhanced surveillance system is well-equipped with diverse datasets, enabling effective training and evaluation of machine learning models, ultimately fostering a safer and more efficient travel experience in rail stations.
 
-                                                                                                       Model Structure:
-												    ---------------------
+Model Structure:
+----------------
 [3] This model structure is used for ConvLSTM.The ConvLSTM model structure integrates convolutional and LSTM layers to process sequential data with spatial and temporal dependencies.[3] It combines convolutional operations with LSTM units, enabling the model to capture both spatial and temporal patterns simultaneously. Input data undergoes feature extraction through convolutional layers, while LSTM cells handle memory and state management to capture long-term dependencies.[3] The model is trained using gradient-based optimization algorithms and finds applications in video analysis, weather forecasting, and medical imaging. Once trained, it can be deployed for tasks like video prediction and anomaly detection. Here is the flowchart of input and output and the modules used in the feature extraction.
 We can determine that the local CCTV surveillance system is set up using a local system like a pc or a laptop. Then the footage from the CCTV system is uploaded to the allocated private server. The uploaded data or footage of the CCTV system is stored in the DSU (Datacenter Storage Unit), which can be accessed later for the detection of crowds or the prevention of crime using the Real Time Video Processing module that was created by our team utilising machine learning. If too many people are detected , an alert for crowd detection, and if any physical violence is detected it sends an alert for crime prevention both of which are then sent to the officials. The alerts that are sent; on the detection of any anomaly to the local device of the security personnel which can be accessed by them using the designated app on the local device. The location of the anomaly is sent to the mobile phone of the security official on duty, connected to the WIFI of the railway station allowed only to the security officials..
 
-
-                                                                                                        Results:
-												     --------------
+Results:
+--------
 This study gives an appraisal of recent object detection and anomalous movement detection methodologies, development of smart surveillance of CCTV in crowded areas like railway stations and the challenges faced during the creation of the project. A comparative analysis [8] is provided to both obtainable databases and connected benchmarks. We have highlighted the shortcomings of the older projects, and evaluated a way to deal with the limitations.
 
 
-                                                                                              Performance of approaches used:
-											   ------------------------------------
+Performance of approaches used:
+-------------------------------
 A Total loss vs Total validation loss graph is generated by our model using the testing dataset, 
 convLSTm
 LRCM approach
  
-                                                                                                     Observation :
-												  -------------------
+Observation :
+-------------
 Solution for improving the system:
 Our ongoing research on posture tracking for human action detection and activity captioning introduces a novel dimension to security applications by addressing the limitations in existing research, the project aims to enhance the precision and efficiency of the surveillance systems. Notably, the survey identifies the need to overcome specific challenges in previous works. The litany Of existing methodologies and applications discussed in the literature survey offers a valuable backdrop for identifying gaps and challenges. The absence of explicit algorithms in detail in certain studies and the evolving need for more precise human action detection underscore areas for improvement and further investigations.
 
-                                                                                                    Conclusion:
-												  ---------------
+Conclusion:
+-----------
 
 The overarching objective of this project is to design, implement, and deploy an Artificial   Intelligence (AI) and Machine Learning (ML) based smart surveillance system with a focus on enhancing crowd management, security measures, and resource allocation. The specific objectives are outlined as follows: 
 
@@ -111,8 +110,8 @@ Cloud-Based Scalability and Adaptability: Implement the smart surveillance syste
 
 Seamless Implementation and Adoption: Ensure a seamless implementation process, considering factors such as stability, reliability, and ease of integration. The objective is to deliver a solution that can be adopted smoothly by authorities, minimising disruptions to existing operations. By achieving these objectives, the project aims to significantly contribute to the improvement of security and operational efficiency in public and private sector domains, providing a robust and adaptable smart surveillance system. 
 
-                                                                                                       Reference:
-												     ---------------
+Reference:
+-----------
 1. Jain, H., Vikram, A., Mohana, Kashyap, A., Jain, A.: "Weapon Detection using Artificial intelligence and deep learning for security applications." Telecommunication Engineering, RV College of Engineering, Bengaluru, Karnataka, India (2020).
 2. Naurin, S. T., Saha, A., Akter, K., Ahmed, S.: "A Proposed Architecture to Suspect and Trace Criminal Activity Using Surveillance Cameras." In: Editor, F., Editor, S. (eds.) CONFERENCE 2020, LNCS, vol. 9999, pp. 1–13. American International University, Dhaka, 
    Bangladesh. Date: 5 June 2020. Springer, Heidelberg (2020).
